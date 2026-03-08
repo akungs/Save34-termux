@@ -35,6 +35,8 @@ Installation
 Open Termux and run:
 copy and paste!!!
 
+termux-setup-storage
+
 pkg update && pkg upgrade -y && pkg install -y git
 
 git clone https://github.com/akungs/save34-termux
