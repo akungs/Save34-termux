@@ -181,7 +181,7 @@ esac
 
 fi
 
-echo "TUNGGU SEDANG MENGUNDUH 📩"
+#echo "TUNGGU SEDANG MENGUNDUH 📩"
 if [[ "$choice" == "Music" ]]; then
 
 #read -p "Masukan URL: " url
@@ -193,7 +193,7 @@ yt-dlp -a 'link.txt' \
 --downloader-args "aria2c:-x16 -s16 -k1M" \
 
 fi
-echo "TUNGGU SEDANG MENGUNDUH 📩"
+#echo "TUNGGU SEDANG MENGUNDUH 📩"
 if [[ "$choice" == "Playlist" ]]; then
 
 yt-dlp -a 'link.txt' \
@@ -204,7 +204,7 @@ yt-dlp -a 'link.txt' \
 
 fi
 
-echo "TUNGGU SEDANG MENGUNDUH 📩"
+#echo "TUNGGU SEDANG MENGUNDUH 📩"
 if [[ "$choice" == "TikTok" ]]; then
 
 yt-dlp -a 'link.txt' \
@@ -221,4 +221,4 @@ mv *.mp3* storage/dcim/Save-Temux-mp3 >/dev/null
 mv *.mp4* storage/dcim/Save-Temux-mp4 >/dev/null
 
 echo
-echo "Download selesai ✔"
+echo "oke... done ✔"
